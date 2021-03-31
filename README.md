@@ -40,8 +40,6 @@
 
 ​	According to the preview control theory, the performance is minimized by the following input which uses the future target references up to $N$ steps (I never learned about this theory and cannot understand the full mathematics here :( ). $P$ is the solution of a Riccati equation and it can be easily computed by scipy.
 
-​	**Warning:** The offset tracking error of ZMP in a long distance walking pattern occurs in this $u_k$ formula, so [1] and [2] use the improved version.
-
 ![formula8](./figures/formula8.png)
 
 ![formula9](./figures/formula9.png)
@@ -49,6 +47,8 @@
 ![formula10](./figures/formula10.png)
 
 ![formula11](./figures/formula11.png)
+
+​	**Warning:** The offset tracking error of ZMP in a long distance walking pattern occurs in this $u_k$ formula, so [1] and [2] use the improved version.
 
 
 
